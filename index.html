@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast Typer</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+
+<body>
+<input type="hidden" id="play-counter" value="0">
+<div class="container">
+    <div class="text-content">
+        <h1>FAST TYPER</h1><br>
+        <p class="phrase">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna at aliqua.</p>
+    </div>
+
+    <div class="text-status">
+        <p><span id="typing-time">10</span><br> segundos</p>
+    </div>
+
+    <div class="content-main">
+        <textarea class="typing-field"></textarea><br><br>
+        <button class="btn-restart" id="btn-restart"><i class="fa-solid fa-rotate-right"></i></button>
+    </div>
+
+    <div class="input-status">
+        <p><span id="character-counter">0</span> caracteres</p>
+        <p><span id="word-counter">0</span> palavras</p>
+        <p><span id="accuracy-percentage">0</span> de acerto</p>
+    </div><br>
+
+    <h1>Pontuações</h1><br>
+    <div class="player-score"></div>
+</div>
+</body>
+</html>

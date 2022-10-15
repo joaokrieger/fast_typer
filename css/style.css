@@ -1,0 +1,94 @@
+body{
+    background-color: #EDF0F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 5% auto;
+    width: 50%;
+}
+
+.container h1{
+    color: #2F80ED;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-content h1{
+    font-size: 40px;
+}
+
+.text-content{
+    text-align: center;
+}
+
+.text-content p{
+    font-size: 20px;
+}
+
+.text-status{
+    text-align: center;
+}
+
+.text-status span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2F80ED;
+}
+.content-main .typing-field{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+    resize: none;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.disabled{
+    background-color: #c7c7c7 !important;
+}
+
+.content-main .btn-restart{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #2F80ED;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.input-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-status span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2F80ED;
+}
+
+.player-score{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.player-score .score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 15px;
+}
+
+.player-score .score span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2F80ED;
+}
